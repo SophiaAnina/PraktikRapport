@@ -3,40 +3,91 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0&icon_names=person_raised_hand" />
+    <script src="https://kit.fontawesome.com/93d776830d.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="style.css">
     <title>CPH Digital Praktik</title>
 </head>
 <script src="script.js"></script>
 <body>
     <div class="container">
-       <section>
+        <div class="buttonContainer">
+      
+        <button onclick="plusDivs(-1)" class="prev">
+            <i class="fa-solid fa-chevron-left"></i>
+        </button> 
+         <button onclick="plusDivs(+1)" class="next">
+            <i class="fa-solid fa-chevron-right"></i>
+        </button>
+    </div>
+       <section class="Slides"> 
         <div class="row">
         <div class="col">
             <h1>CPH Digital Frontend Praktikrapport</h1>
             <p>Sophia Anina Kingston | 2025 januar - marts | CPH Digital</p>
-            <button> CPH Digital</button>
+           <span class="buttons"> <button> CPH Digital</button><button> Praktikrapport</button></span>
         </div>
         </div>
         <div class="row">
         <div class="col">
-            <img src="img/cphd_nordic_logo.jpg" alt="">
+            <img class="logo" src="img/cphd_nordic_logo.jpg" alt="">
         </div>
        </section>
-
-       <section>
-        <div class="row">
-            <div class="col">
-
+       <section class="Slides"id="introduction">
+        <span>
+            <h2>Introduktion</h2>
+            <p>Denne rapport beskriver mit praktikforløb som frontend-udvikler hos CPH-Digital. Formålet med opholdet var at opnå praktisk erfaring med frontend-udvikling, herunder arbejdet med WordPress, Divi Builder, Figma samt performanceoptimering og API-integrationer.I løbet af praktikperioden har jeg deltaget i både interne og eksterne projekter, hvor jeg har udviklet mine færdigheder inden for styling, funktionalitet og performanceforbedringer af websites. Rapporten vil gennemgå de opgaver, jeg har arbejdet med, de erfaringer, jeg har gjort mig undervejs, samt den personlige udvikling jeg har gjort i samarbejde med praktikstedet.</p>
+       </span>
+       </section>
+       <section class="Slides" id="Learingsmoel">
+        <span>
+            <h2>Læringsmål</h2>
+            <h3>Viden</h3>
+            <p>Den studenrende</p>
+            <ul>
+                <li>udviklingsbaseret viden om multimediedesignerens afgrænsede funktioner i praktikvirksomhedens praksis</li>
+                <li>forståelse for erhvervets og praktikområdets anvendelse af teori, metode og teknologi i praksis.</li>
+            </ul>
+            
+        </span>
+       </section>
+       <section class="Slides" id="dare">
+        <span>
+            <h2>Dare Share Care- En tilgang til personlig udviklig</h2>
+           
+            <p class="introText">Dare, Share, Care er en filosofi, der handler om at udvikle sig gennem mod, vidensdeling og ansvarlighed. Den kan anvendes i mange forskellige sammenhænge, hvor samarbejde, læring og personlig vækst er i fokus.</p>
+            <div class="dare">
+                <span class="material-symbols-outlined">
+                    person_raised_hand
+                    </span>
+                <h3>Dare</h3>
+                <p>At turde betyder at tage chancer, udfordre sig selv og gå ud af sin komfortzone. Det handler om at tage initiativ, være nysgerrig og opsøge nye muligheder for at lære og udvikle sig – både personligt og professionelt.</p>
             </div>
-        </div>
-        <div class="row">
-            <div class="col">
-                <h1>Introduction</h1> 
-                <p>Denne rapport beskriver mit praktikforløb som frontend-udvikler hos CPH-Digital. Praktikken strakte sig over tre måneder og var struktureret i forskellige faser: læring, produktion og optimering. Formålet med opholdet var at opnå praktisk erfaring med frontend-udvikling, herunder arbejdet med WordPress, Divi Builder, Figma samt performanceoptimering og API-integrationer.I løbet af praktikperioden har jeg deltaget i både interne og eksterne projekter, hvor jeg har udviklet mine færdigheder inden for styling, funktionalitet og performanceforbedringer af websites. Rapporten vil gennemgå de opgaver, jeg har arbejdet med, de teknologier jeg har anvendt, samt de erfaringer, jeg har gjort mig undervejs.</p>
+            <div class="share">
+                <i class="fa-regular fa-handshake"></i>
+                <h3>Share</h3>
+                <p>Vidensdeling og samarbejde er nøglen til succes i mange sammenhænge. Share handler om at dele erfaringer, perspektiver og kompetencer med andre for at skabe en kultur, hvor alle kan lære af hinanden og bidrage til fælles udvikling.</p>
             </div>
-        </div>
+            <div class="care">
+                <i class="fa-regular fa-heart"></i>
+                <h3>Care</h3>
+                <p>At udvise omsorg betyder at tage ansvar for sig selv, sine relationer og det fællesskab, man er en del af. Det indebærer at skabe en positiv og støttende atmosfære, hvor respekt, empati og engagement er i centrum.</p>
+            </div>
+
+        </span>
+       </section>
+       <section class="Slides" >
+        <span>
+            <h2>Performance</h2>
+        </span>
        </section>
        </div>
+       <footer>
+       
+       </footer>
     </div>
 </body>
 </html>
